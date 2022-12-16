@@ -1,0 +1,134 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst}
+\usepackage{misccorr}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\definecolor{urlcolor}{HTML}{3399FF} % цвет гиперссылок
+\hypersetup{pdfstartview=FitH, linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
+\graphicspath{{pictures/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+
+\begin{document}
+  \begin{titlepage}
+  \begin{center}
+    \large
+    МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ\\ РОССИЙСКОЙ ФЕДЕРАЦИИ
+     
+    \textbf{Федеральное агентство по образованию}
+    \vspace{0.5cm}
+ 
+    НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ «МИЭТ»
+    \vspace{0.25cm}
+    
+    Институт системной и программной инженерии и информационных технологий (Институт СПИНТех)
+    \vfill
+ 
+    \textsc{}\\[20mm]
+     
+    {\huge Научная статья\\
+      Дифференциальный усилитель\\}
+  \bigskip
+    Трусов Михаил Павлович\\
+    Лабораторная работа 4, 1 курс, группа ПИН-12\\
+
+\end{center}
+ 
+\vfill
+ 
+\newlength{\ML}
+\settowidth{\ML}{«\underline{\hspace{0.7cm}}» \underline{\hspace{2cm}}}
+\hfill\begin{minipage}{0.4\textwidth}
+  Научный руководитель\\
+  \underline{\hspace{\ML}} И.\,И.~Иванов\\
+  «\underline{\hspace{0.7cm}}» \underline{\hspace{2cm}} 2022 г.
+\end{minipage}%
+\bigskip
+ 
+\hfill\begin{minipage}{0.4\textwidth}
+  Преподаватель практикума\\
+  \underline{\hspace{\ML}} А.\,С.~Пушкин\\
+  «\underline{\hspace{0.7cm}}» \underline{\hspace{2cm}} 2022 г.
+\end{minipage}%
+\vfill
+ 
+\begin{center}
+  Москва, 2022 г.
+\end{center}
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Теория}
+\label{sec:exp}
+
+\section{Применение}
+\label{sec:exp}
+
+\section{Список литературы}
+\label{sec:exp}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+  \Huge
+   \textbf{Теория} 
+\end{center}
+ \Large
+ Дифференциальный усилитель - это тип электронного усилителя, который усиливает разницу между двумя входными напряжениями, но подавляет любое напряжение, общее для двух входов. Это аналоговая схема с двумя входами $V_{in}^-$; $V_{in}^+$ и одним выходом $V_{out}$, в которой выходной сигнал идеально пропорционален разнице между двумя напряжениями.\\
+ \textbf{Выход идеального дифференциального усилителя определяется выражением}
+ 
+\begin{center} 
+    \(V_{out}=A_d(V_{in}^+ - V_{in}^-),\)
+\end{center}
+\Large
+где $A_d$ - дифференциальный коэффициент усиления усилителя.
+\newline
+\Large
+На практике, однако, коэффициент усиления не совсем одинаков для двух входов. Это означает, например, что если $V_{in}^-$ и $V_{in}^+$ равны, то выходной сигнал не будет равен нулю, как это было бы в идеальном случае. Таким образом, более реалистичное выражение для выходного сигнала дифференциального усилителя включает в себя второй член:
+
+\begin{center} 
+    \(V_{out}=A_d(V_{in}^+ - V_{in}^-) + A_c \frac{V_{in}^+ + V_{in}^-}{2},\)
+\end{center}
+\Large
+где $A_c$ называется синфазным коэффициентом усиления усилителя.
+\begin{tabbing}
+ MMM \= MMMMMM \= MMMMMMMM \= MMMMMMM \kill
+ № \> Смещение \> Общий режим \> Дифференциальный режим\\
+ 1 \> 15 \> 45 \> 17\\
+ 2 \> 75 \> 56 \> 28\\
+ 3 \> 54 \> 48 \> 21
+ \end{tabbing}
+\Large
+Коэффициент подавления синфазного сигнала ($CMRR$), обычно определяемый как отношение между коэффициентом усиления в дифференциальном режиме и коэффициентом усиления в синфазном режиме, указывает на способность усилителя точно подавлять напряжения, которые являются общими для обоих входов.\\
+Коэффициент подавления синфазного сигнала определяется как
+\begin{center} 
+    \(CMRR = 10 \log_{10} (\frac{A_d}{A_c})^2 = 20 \log_{10} \frac{A_d}{|A_c|}\)
+\end{center}
+\Large
+В идеально симметричном дифференциальном усилителе $A_c$ равен нулю, а $CMRR$ бесконечен. Обратите внимание, что дифференциальный усилитель является более общей формой усилителя, чем усилитель с одним входом; заземляя один вход дифференциального усилителя, получается \href{https://cxem.net/sound/amps/amp74.php}{однотактный усилитель}.
+
+\begin{center}
+  \Huge
+   \textbf{Применение} 
+\end{center}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\linewidth]{latex.png}
+\caption{Символ операционного усилителя}
+\label{fig:mpr}
+\end{figure}
+\newpage
+
+\begin{thebibliography}{9}
+\bibitem {}Дифференциальный усилитель BJT. А.С. Пушкин
+\bibitem{}Испытательный стенд для дифференциальных схем.
+\end{thebibliography}
+
+\end{document}
