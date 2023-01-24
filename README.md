@@ -1,6 +1,8 @@
-# МИЭТ: 1 курс, 1 семестр
+# МИЭТ: 1 курс, 1 семестр 
 
 <img src="https://i.imgur.com/aD353uq.png" width="100">
+
+![](https://view-counter.tobyhagan.com/?user={0SouthBoss0}/{MIET-kurs1-sem1}) 
 
 **Предметы:** 
 
