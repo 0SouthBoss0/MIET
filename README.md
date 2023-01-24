@@ -2,7 +2,9 @@
 
 <img src="https://i.imgur.com/aD353uq.png" width="100">
 
-![](https://view-counter.tobyhagan.com/?user={0SouthBoss0}/{MIET-kurs1-sem1}) 
+![](https://view-counter.tobyhagan.com/?user={0SouthBoss0}/{MIET-kurs1-sem1})
+
+[Сказать спасибо автору](https://www.donationalerts.com/r/0southboss0)
 
 **Предметы:** 
 
