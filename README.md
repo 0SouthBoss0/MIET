@@ -9,17 +9,17 @@
 **Предметы:** 
 
 * Информатика
-  * Лабораторные работы
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/inf)
  
 * Компьютерный практикум по линейной алгебре
-  * Контрольные работы
-  * Лабораторные работы
+  * [Контрольные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/kp_linal/kr)
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/kp_linal/labs)
 
 * Компьютерный практикум по основам математического анализа
-  * БДЗ
-  * Контрольные работы
-  * Лабораторные работы
+  * [БДЗ](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/kp_matan/bdz)
+  * [Контрольные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/kp_matan/kr)
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/kp_matan/labs)
 
 * Основы программирования
-  * Лабораторные работы
-  * Семинары
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/op/labs)
+  * [Семинары](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/op/seminars)
