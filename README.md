@@ -9,22 +9,22 @@
 **1 семестр:** 
 
 * Информатика
-  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/inf)
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/1sem/inf)
  
 * Компьютерный практикум по линейной алгебре
-  * [Контрольные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/kp_linal/kr)
-  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/kp_linal/labs)
+  * [Контрольные работы](https://github.com/0SouthBoss0/MIET/tree/main/1sem/kp_linal/kr)
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/1sem/kp_linal/labs)
 
 * Компьютерный практикум по основам математического анализа
-  * [БДЗ](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/kp_matan/bdz)
-  * [Контрольные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/kp_matan/kr)
-  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/kp_matan/labs)
+  * [БДЗ](https://github.com/0SouthBoss0/MIET/tree/main/1sem/kp_matan/bdz)
+  * [Контрольные работы](https://github.com/0SouthBoss0/MIET/tree/main/1sem/kp_matan/kr)
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/1sem/kp_matan/labs)
 
 * Основы программирования
-  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/op/labs)
-  * [Семинары](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/op/seminars)
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/1sem/op/labs)
+  * [Семинары](https://github.com/0SouthBoss0/MIET/tree/main/1sem/op/seminars)
 
 **2 семестр:** 
 
 * Компьютерный практикум по математическому анализу
-  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/inf)
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/2sem/kp_matan/labs)
