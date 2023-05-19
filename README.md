@@ -1,4 +1,4 @@
-# МИЭТ: 1 курс, 1 семестр 
+# НИУ "Московский институт электронной техники"
 
 <img src="https://i.imgur.com/aD353uq.png" width="100">
 
@@ -6,7 +6,7 @@
 
 [Сказать спасибо автору](https://www.donationalerts.com/r/0southboss0)
 
-**Предметы:** 
+**1 семестр:** 
 
 * Информатика
   * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/inf)
@@ -23,3 +23,8 @@
 * Основы программирования
   * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/op/labs)
   * [Семинары](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/op/seminars)
+
+**2 семестр:** 
+
+* Компьютерный практикум по математическому анализу
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET-kurs1-sem1/tree/main/inf)
