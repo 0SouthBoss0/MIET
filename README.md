@@ -28,7 +28,7 @@
   * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/2sem/kp_matan/labs)
 
 * Объектно-ориентированное программирование
-  * ON PROGRESS
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/2sem/op/labs)
 
 * Проектирование человеко-машинного интерфейса
   * ON PROGRESS
