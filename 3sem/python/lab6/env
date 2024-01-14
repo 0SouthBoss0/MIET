@@ -1,0 +1,7 @@
+EMAIL_LOGIN=mik.tru@mail.ru
+EMAIL_PASSWORD=
+IMAP_HOST=imap.mail.ru
+IMAP_PORT=993
+SMTP_HOST=smtp.mail.ru
+SMTP_PORT=465
+PERIOD_CHECK=10
