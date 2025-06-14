@@ -61,6 +61,26 @@
 
 * Численные методы
   * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/4sem/chismet/labs)
+ 
+**5 семестр:** 
+
+* Базы данных
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/5sem/bd/labs)
+
+* Конструирование программного обеспечения
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/5sem/kpo/labs)
+
+* Операционные системы и сети
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/5sem/osis/labs)
+
+* Основы теории информации и кодирования
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/5sem/otik/labs)
+
+* Тестирование программного обеспечения
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/5sem/testing/labs)
+
+* Технологии параллельного программирования
+  * [Лабораторные работы](https://github.com/0SouthBoss0/MIET/tree/main/5sem/tpp/labs)
 
 **Методические материалы:**
 
