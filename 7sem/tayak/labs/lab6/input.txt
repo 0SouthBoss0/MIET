@@ -1,0 +1,178 @@
+<!-- input.txt -->
+<body bgcolor="black" color="white">
+    <h1 align="center" color="bright_red">ДЕМО-ВАРИАНТ</h1>
+    <hr color="cyan">
+
+    <!-- Базовое форматирование текста -->
+    <div align="center">
+        <h2 color="bright_yellow">БАЗОВОЕ ФОРМАТИРОВАНИЕ ТЕКСТА</h2>
+    </div>
+
+    <div>
+        <p align="left" color="white">
+            Этот раздел демонстрирует <b bold="true" color="bright_green">жирный текст</b>,
+            <i italic="true" color="bright_cyan">курсивный текст</i>, и
+            <u underline="true" color="bright_magenta">подчеркнутый текст</u>.
+        </p>
+
+        <p align="center" color="gray">
+            Комбинация стилей: <b bold="true"><i italic="true"><u underline="true">жирный курсив подчеркнутый</u></i></b>
+        </p>
+
+        <p align="right" color="bright_blue">
+            Текст, выровненный по правому краю рамки с голубым цветом.
+        </p>
+    </div>
+
+    <!-- Цвета и фоны -->
+    <div align="center">
+        <h2 color="bright_green">ЦВЕТА И ФОНЫ</h2>
+    </div>
+
+    <div>
+        <p align="center" bgcolor="red" color="white">Белый текст на красном фоне</p>
+        <p align="center" bgcolor="green" color="black">Черный текст на зеленом фоне</p>
+        <p align="center" bgcolor="blue" color="bright_yellow">Желтый текст на синем фоне</p>
+        <p align="center" bgcolor="magenta" color="bright_cyan">Бирюзовый текст на пурпурном фоне</p>
+        <p align="center" bgcolor="yellow" color="blue">Синий текст на желтом фоне</p>
+        <p align="center" bgcolor="cyan" color="magenta">Пурпурный текст на бирюзовом фоне</p>
+    </div>
+
+    <!-- Вложенность блоков -->
+    <div align="center">
+        <h2 color="bright_cyan">ВЛОЖЕННОСТЬ БЛОКОВ</h2>
+    </div>
+
+    <div bgcolor="dark_gray" color="white">
+        <p align="center">Уровень 1: Основной блок</p>
+
+        <div>
+            <p align="left" color="bright_green">Уровень 2: Вложенный блок слева</p>
+
+            <div bgcolor="blue" color="white">
+                <p align="center">Уровень 3: Центрированный текст в синем блоке</p>
+
+                <div>
+                    <p align="right" color="bright_yellow">Уровень 4: Текст справа</p>
+
+                    <div bgcolor="magenta">
+                        <p align="center" color="white">Уровень 5: Глубоко вложенный центрированный блок</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p align="right" color="bright_cyan">Уровень 2: Другой вложенный блок справа</p>
+        </div>
+    </div>
+
+    <!-- Горизонтальные разделители -->
+    <div align="center">
+        <h2 color="bright_green">ГОРИЗОНТАЛЬНЫЕ РАЗДЕЛИТЕЛИ</h2>
+    </div>
+
+    <div>
+        <p>Обычный разделитель:</p>
+        <hr>
+
+        <p>Цветной разделитель:</p>
+        <hr color="bright_red">
+    </div>
+
+    <!-- Многострочный текст с выравниванием -->
+    <div align="center">
+        <h2 color="bright_magenta">МНОГОСТРОЧНЫЙ ТЕКСТ</h2>
+    </div>
+
+    <div>
+        <p align="left">
+            Это пример очень длинного текста, который должен автоматически переноситься на следующую строку
+            внутри блока. Текст продолжается и продолжается, демонстрируя как процессор обрабатывает
+            длинные строки и автоматически разбивает их на несколько строк внутри рамки 80 символов.
+        </p>
+
+        <div bgcolor="blue" color="white">
+            <p align="center">
+                Центрированный многострочный текст внутри цветного блока. Этот текст также достаточно
+                длинный, чтобы показать как работает центрирование при переносе строк. Каждая новая
+                строка будет центрирована относительно доступной ширины.
+            </p>
+        </div>
+
+        <div>
+            <p align="right">
+                Текст, выровненный по правому краю, который также занимает несколько строк.
+                Обратите внимание, что каждая строка выравнивается по правому краю независимо,
+                создавая ровный правый край текстового блока.
+            </p>
+        </div>
+    </div>
+
+    <!-- Комплексная демонстрация -->
+    <div align="center">
+        <h2 color="bright_red">КОМПЛЕКСНАЯ ДЕМОНСТРАЦИЯ</h2>
+    </div>
+
+    <div bgcolor="dark_gray">
+        <p align="center" color="bright_yellow" bold="true">СЛОЖНЫЙ ВЛОЖЕННЫЙ МАКЕТ</p>
+
+        <!-- Левая колонка -->
+        <div>
+            <p align="center" bgcolor="blue" color="white">ЛЕВАЯ КОЛОНКА</p>
+
+            <div>
+                <p align="left">• Пункт 1 слева</p>
+                <p align="center">• Пункт 2 по центру</p>
+                <p align="right">• Пункт 3 справа</p>
+            </div>
+
+            <div bgcolor="green" color="black">
+                <p>Зеленый блок с:</p>
+                <p align="right" italic="true">курсивом справа</p>
+                <p align="center" bold="true">жирным по центру</p>
+            </div>
+        </div>
+
+        <!-- Правая колонка -->
+        <div>
+            <p align="center" bgcolor="red" color="white">ПРАВАЯ КОЛОНКА</p>
+
+            <div>
+                <p>Текст обычного размера</p>
+                <p italic="true">Курсивный текст</p>
+                <p color="bright_cyan">Цветной текст</p>
+            </div>
+
+            <div>
+                <p align="left" underline="true">Подчеркнутый слева</p>
+                <p align="center" underline="true">Подчеркнутый по центру</p>
+                <p align="right" underline="true">Подчеркнутый справа</p>
+            </div>
+        </div>
+
+        <!-- Нижний блок -->
+        <div bgcolor="magenta" color="white">
+            <p align="center" bold="true">НИЖНИЙ БЛОК</p>
+
+            <div>
+                <p>Смешанные стили:
+                   <b bold="true">жирный</b>,
+                   <i italic="true">курсив</i>,
+                   <u underline="true">подчеркнутый</u>,
+                   <b bold="true"><i italic="true">жирный курсив</i></b>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Футер -->
+    <hr color="green">
+
+    <footer align="center" bgcolor="black" color="gray">
+        <p color="bright_white" bold="true">КОНЕЦ</p>
+        <hr color="green">
+    </footer>
+</body>

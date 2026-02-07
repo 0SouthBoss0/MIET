@@ -1,0 +1,7 @@
+q0,a=q1
+q0,a=q2
+q1,a=q0
+q2,b=q2
+q2,a=q0
+q2,b=f0
+f0,b=q1

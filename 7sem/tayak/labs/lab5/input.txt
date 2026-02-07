@@ -1,0 +1,22 @@
+print (3-5)*2;
+print "Введите первое число:";
+scan a;
+print "Введите второе число:";
+scan b;
+print "a = ", a, ", b = ", b;
+if a > b {
+    print "a больше b";
+    c = a + b;
+    for i = 1 to c {
+            for j = 1 to c {
+                for k = 1 to c {
+                                print "i = ", i, ", j = ", j, ", k = ", k;
+                            }
+            }
+    }
+} else {
+    print "a меньше или равно b";
+    c = a - b;
+}
+print "Результат: c = ", c, " спасибо!";
+print "Тест завершен!";

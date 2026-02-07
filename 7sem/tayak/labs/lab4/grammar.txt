@@ -1,0 +1,5 @@
+E → T Q
+Q → + T Q | ε
+T → F R
+R → * F R | ε
+F → ( E ) | id

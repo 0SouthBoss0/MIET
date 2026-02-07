@@ -1,0 +1,16 @@
+program → type MAIN LPAREN RPAREN LBRACE statements RBRACE
+type → INT | BOOL | VOID
+statements → statement statements | ε
+statement → declaration SEMICOLON | for_statement | if_statement | return_statement | assignment SEMICOLON | expression SEMICOLON | LBRACE statements RBRACE
+assignment → IDENTIFIER ASSIGN expression
+declaration → type IDENTIFIER assign
+assign → ASSIGN expression | ε
+expression → simple_expression expression_tail
+expression_tail → operator expression | ε
+simple_expression → IDENTIFIER | NUMBER | LPAREN expression RPAREN
+operator → PLUS | LT | GT | EQ | NE | ASSIGN
+for_statement → FOR LPAREN for_init SEMICOLON expression SEMICOLON expression_opt RPAREN statement
+expression_opt → expression | ε
+for_init → declaration | expression
+if_statement → IF LPAREN expression RPAREN statement
+return_statement → RETURN expression SEMICOLON
